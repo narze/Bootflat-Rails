@@ -29,7 +29,7 @@ $img-src:                "check_flat/default.png" !default;
       padding: 0 !important;
       width: 20px;
       height: 20px;
-      background: url($img-src) no-repeat;
+      background: asset-url($img-src) no-repeat;
       border: none;
       cursor: pointer;
   }
